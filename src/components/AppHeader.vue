@@ -1,10 +1,8 @@
 <script>
-import SearchForm from './SearchForm.vue';
+
 export default {
     name: 'AppHeader',
-    components: {
-        SearchForm
-    }
+   
 }
 </script>
 
@@ -13,7 +11,7 @@ export default {
     <header>
 
         <div class="container">
-            <h1 class="">
+            <h1 >
                YUGI OH 
             </h1>
 

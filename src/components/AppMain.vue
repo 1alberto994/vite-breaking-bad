@@ -1,5 +1,5 @@
 <script>
-    import CharacterCard from './CharacterCard.vue';
+    import ImageCard from './ImageCard.vue';
     import { store } from '../store.js';
     export default {
         name: 'AppMain',
@@ -9,7 +9,7 @@
             }
         },
         components: {
-            CharacterCard
+            ImageCard
         }
     }
 </script>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                 <div class="col text-center" v-for="character in store.results">
-                    <CharacterCard :character="character" />
+                    <ImageCard :character="character" />
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: 'CharacterCard',
+        name: 'ImageCard',
         props: {
             character: Object
         }
@@ -11,7 +11,7 @@
 
     <div>
         <div>
-            <img :src="character.image" :alt="character.name" class=" img-fluid">
+            <img :src="character.image_url" :alt="character.name" class=" img-fluid">
         </div>
 
         <div>
