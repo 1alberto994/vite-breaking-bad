@@ -11,7 +11,7 @@
 
     <div>
         <div>
-            <img :src="character.image_url" :alt="character.name" class=" img-fluid">
+            <img :src="character.card_images[0].image_url" :alt="character.name" class=" img-fluid">
         </div>
 
         <div>
