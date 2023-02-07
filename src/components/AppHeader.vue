@@ -49,6 +49,9 @@
             <h1 >
                YUGI OH 
             </h1>
+            <p>
+                SELEZIONA IL TIPO
+            </p>
 
             <SearchForm  @search="getCharacters" @clear="resetSearch"/>
         </div>
